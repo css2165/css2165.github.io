@@ -1,0 +1,205 @@
+body{
+  width:100%;
+  margin:0px;
+  padding:0px;
+  font-family:"Exotc350 bd bt",Helvetica;
+  font-size:1.2em;  
+  color:powderblue;
+  box-sizing:border-box;
+}
+ul{  
+  padding-left:0px;
+  list-style-position:inside;
+  list-style-type:none;
+  
+}
+a{
+  text-decoration:none;
+  color:white;
+  font-style:italic;
+}
+a:hover{  
+  color:#ff6666;
+}
+h2{
+  margin-top:0px;  
+}
+
+/*nav*/
+nav{  
+  padding:20px;
+  background-color: black;
+}
+nav ul{
+  padding-left:0px;
+  list-style-position:inside;
+  display:inline-block;  
+}
+nav li{  
+  display:inline-block;
+  margin-right:15px; 
+}
+#search{  
+  width:180px;
+  border-radius:5px;  
+  text-align:center;
+  font-family:"Exotc350 bd bt";     
+}
+#search-bar{
+  padding:0px; 
+  float:right;
+  margin-right:20px;  
+}
+nav p{
+  display:inline-block;
+  background-color:#6d6d6d;
+  color:white;
+  padding:5px;
+  border-radius:5px;
+  vertical-align:middle;
+}
+nav p:hover{
+  background-color:#ff6666;
+}
+nav p:active{
+  opacity:0.7; 
+}
+/*nav*/
+
+/*header*/
+header{       
+  background-image: url("https://static.roland.com/assets/promos/jpg/cat-marquee_hybrid_drums.jpg"); no-repeat; height:500px;  
+  background-position: center;    
+  position:relative;
+}
+#text-header{
+  display:block;
+  text-align:left;
+  color:black; 
+  position:relative;
+  bottom:0px;  
+  left:5%;
+  font-size:0.8em;  
+}
+header h1{
+  display:inline-block;
+  font-family:proxima-nova;
+  color:black;
+  padding:5px;
+  border-radius:10px;
+}
+header h2{
+  color:black;
+  font-family:Helvetica;
+  font-size:1em;
+  left:1%;
+}
+/*header*/
+
+/*section + article*/
+section{
+  border-bottom:1px solid;
+}
+section, article{
+  text-align:center;
+  background-color: white;
+}
+section h3, article h3{
+  margin-bottom:0px;
+  background-color: white;
+}
+section p, article p{
+  font-size:0.8em;
+  margin-bottom:20px;    
+}
+.container{  
+  display:inline-block; 
+  vertical-align:top;  
+  width:30%;  
+  margin-right:25px;
+  
+}
+.square{  
+  width:70%;  
+}
+a:hover img{
+  opacity:0.9;
+}
+/*section + article*/
+
+/*aside*/
+aside{
+ background-color: black;
+  padding:20px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+#aside-header{
+  padding:0px;   
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
+}
+aside p{
+  font-size:0.7em;
+  text-align:left;
+  background-color:black;
+}
+#center{
+  text-align:center;  
+  
+}
+/*aside*/
+
+/*sign up*/
+#sign-up{  
+  background-color: black;
+  margin-top:0px;
+  color:white;
+  padding:10px;   
+  border:1px solid blue;
+}
+#sign-up p{
+  width:50%;
+  display:inline-block;  
+  margin-left:10px;
+  margin-right:auto;
+  vertical-align:middle;  
+  color:powderblue
+}
+#input{     
+  display:inline;   
+}
+.campo{
+  border-radius:5px;    
+  font-family:"Exotc350 bd bt";
+}
+.submit{  
+  padding:5px;
+  border-radius:5px;  
+  text-align:right;
+  font-family:"Exotc350 bd bt";
+  background-color:blue;
+  color:powderblue;  
+}
+.submit:hover{
+  background-color:green;
+}
+/*sign up*/
+
+/*footer*/
+footer{
+  text-align:center;
+  color:powderblue;
+  background-color: black;
+}
+.container-footer{
+  text-align:left;
+  vertical-align:top;
+  
+  width:20%;
+  display:inline-block;  
+}
+/*footer*/
